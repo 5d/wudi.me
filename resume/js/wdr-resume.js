@@ -32,7 +32,6 @@ main {
   margin: auto;
   color: #343a40;
   max-width: 800px;
-  font-family: "Times New Roman", Georgie, Arial, Helvetica, sans-serif;
 }
 `
 
