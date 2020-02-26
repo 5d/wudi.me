@@ -13,7 +13,7 @@
     "header": "experience",
     "items": [{
       "title": ["UJET", "Remote"],
-      "subtitle": ["Software Engineer", "Mar. 2017 -- Present"],
+      "subtitle": ["Technical consultant", "Mar. 2017 -- Present"],
       "details": [{
         "label": "VoIP Web App",
         "content": "Developed the enterprise level VoIP Web App for Call Centers, redesigned the realtime data pipeline with multi-datasources, ensure switching between several datasources without data loss, and enhanced the SLA with 0.9%, also led the migration from AngularJS directives to Web Components, increased page loading speed"
