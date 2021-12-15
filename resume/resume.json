@@ -12,6 +12,16 @@
   "sections": [{
     "header": "experience",
     "items": [{
+        "title": ["Amazon", "Vancouver, Canada"],
+        "subtitle": [
+          "Software Engineer",
+          "Dec. 2020 -- Present"
+        ],
+        "details": [{
+          "label": "Selling Partner Services",
+          "content": "Developing and maintaining accounting services."
+        }]
+      }, {
       "title": ["UJET", "Remote"],
       "subtitle": ["Software Engineer(Contract)", "Mar. 2017 -- Apr. 2020"],
       "details": [{
