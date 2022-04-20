@@ -1,7 +1,7 @@
 {
   "basic": {
     "name": "Di Wu",
-    "email": "im@wudi.me",
+    "email": "wudis@me.com",
     "website": "https://wudi.me",
     "profiles": [{
       "network": "github",
@@ -10,6 +10,34 @@
     }]
   },
   "sections": [{
+      "header": "summary",
+      "items": [
+        {
+          "details": [
+            {
+              "label": "",
+              "content": "10 years of experience in software design, implement and test flow."
+            }
+          ]
+        }
+      ]
+    }, {
+      "header": "skills",
+      "items": [
+        {
+          "details": [
+            {
+              "label": "Programming Languages",
+              "content": "Java, Javascript, Typescript, Scala, Swift, C/C++"
+            },
+            {
+              "label": "Tools",
+              "content": "Git, Emacs, Docker, AWS, VSCode"
+            }
+          ]
+        }
+      ]
+    }, {
     "header": "experience",
     "items": [{
         "title": ["Amazon", "Vancouver, Canada"],
@@ -18,62 +46,51 @@
           "Dec. 2020 -- Present"
         ],
         "details": [{
+          "label": "EC2 Load Balancing",
+          "content": "Working on a new network service for cross boundary(accounts and VPCs) accessing experience."
+        },{
           "label": "Selling Partner Services",
-          "content": "Developing and maintaining accounting services."
+          "content": "Designed and implemented a deferral accounting engine serve over 8 million daily transactions for finance team. Maintained accounting services for third party sellers."
         }]
       }, {
       "title": ["UJET", "Remote"],
-      "subtitle": ["Software Engineer(Contract)", "Mar. 2017 -- Apr. 2020"],
+      "subtitle": ["Front-end Software Engineer", "Mar. 2017 -- Apr. 2020"],
       "details": [{
         "label": "VoIP Web App",
-        "content": "Developed the enterprise level VoIP Web App for Call Centers, redesigned the realtime data pipeline with multi-datasources, ensure switching between several datasources without data loss, and enhanced the SLA with 0.9%, also led the migration from AngularJS directives to Web Components, increased page loading speed"
+        "content": "Maintained and implemented the VoIP web App. Make it easy to be integrated into CRM platforms like salesforce and zendesk."
       }, {
         "label": "Developer Console",
-        "content": "Built an internal developer web app for querying, filtering and monitoring online server data and status, make it easier for on-call engineers to debug and respond"
+        "content": "Designed and implemented Admin Console web App for simplifying on-call operations."
       }]
     }, {
       "title": ["Rakunew", "Saitama, Japan"],
       "subtitle": ["Software Engineer", "Jul. 2016 -- Mar. 2017"],
       "details": [{
         "label": "Xiaotaojiang",
-        "content": "Redesigned the online shopping hybrid app with Swift and Webkit"
+        "content": "Rearchitected and implemented an e-commerce store iOS App with the newest Webkit framework. It’s hybrid with all the UI rendered in WebView and all the async requests handled by native Swift code."
       }, {
-        "label": "Chatbot",
-        "content": "Designed a Japanese LINE chatbot for predicting used car price by interactively talking to user, getting car specs, and feeding the data to a trained AI model."
+        "label": "QRCode Scanner",
+        "content": "An App for scanning and reading QRCodes in Japan, automatically crawling and compare the prices on Amazon, Yahoo and other Japanese online stores. The crawlers were written in javascript with App as its orchestrator."
       }]
     }, {
       "title": ["Zoyi", "Seoul, South Korea"],
       "subtitle": ["Software Engineer", "Jun. 2013 -- Jan. 2016"],
       "details": [{
         "label": "Customized Wi-Fi Firmware",
-        "content": "Designed and built a Wi-Fi probe packet sniffer program based on Broadcom MIPS Linux system. Integrated the iBeacon protocol with an onboard BLE chip."
+        "content": "Designed and implemented a Wi-Fi packets sniffing agent that can publishing the devices nearby by regularly detecting Wi-Fi probe requests. It’s based on Broadcom MIPS Linux system. Also, integrated iBeacon functionality to the Wi-Fi device with its onboard BLE chip"
       }, {
         "label": "Wi-Fi Setup Smart Wizard",
-        "content": "Designed and built an iOS App for Wi-Fi device setup through Bluetooth protocol."
+        "content": "Designed and implemented an iOS App for Wi-Fi device inital setup with Bluetooth protocol."
       }, {
-        "label": "Data cluster",
-        "content": "Designed and built a data cluster with Hadoop file system for the storage and analysis of 10s of TB Wi-Fi signal packet data."
-      }, {
-        "label": "Data pipeline",
-        "content": "Designed the data pipe with WebSocket and AMQP. Containerized services and made it scalable on demand with Tutum."
-      }, {
-        "label": "Coo.ki",
-        "content": "Designed and built a twitter-like information sharing iOS App."
+        "label": "Dev/Ops on big data cluster",
+        "content": "Designed and maintained a data cluster with Hadoop file system for the storage and analysis of 10s of TB Wi-Fi signal packet data."
       }]
     }, {
-      "title": ["Jiran", "Seoul, South Korea"],
+      "title": ["JIRANSOFT", "Seoul, South Korea"],
       "subtitle": ["Software Engineer", "Apr. 2011 -- Jun. 2013"],
       "details": [{
         "label": "DirectReader",
-        "content": "Designed and built a dropbox-like iOS App and MacOS App."
-      }]
-    }]
-  }, {
-    "header": "projects",
-    "items": [{
-      "title": ["CarrryU"],
-      "details": [{
-        "content": "Designed and built a game (League of Legend game) assistant iOS App to help game players choose better strategy before the game start by detecting the opponents in the chatting room using XMPP."
+        "content": "Designed and implemented a cloud drive management App for user to easily share files between desktop and mobile devices."
       }]
     }]
   }, {
@@ -81,20 +98,6 @@
     "items": [{
       "title": ["Chungnam National University", "Daejeon, South Korea"],
       "subtitle": ["Bachelor of Engineering in Computer Engineering", "Mar. 2007 -- Mar. 2011"]
-    }]
-  }, {
-    "header": "languages",
-    "items": [{
-      "details": [{
-        "label": "English",
-        "content": "Fluent"
-      }, {
-        "label": "Chinese",
-        "content": "Native"
-      }, {
-        "label": "Korean",
-        "content": "Fluent"
-      }]
     }]
   }]
 }
