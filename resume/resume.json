@@ -16,7 +16,7 @@
           "details": [
             {
               "label": "",
-              "content": "10 years of experience in software design, implement and test flow."
+              "content": "10 years hands on experience in software design, implement and CI/CD flow."
             }
           ]
         }
@@ -83,7 +83,7 @@
         "content": "Designed and implemented an iOS App for Wi-Fi device inital setup with Bluetooth protocol."
       }, {
         "label": "Dev/Ops on big data cluster",
-        "content": "Designed and maintained a data cluster with Hadoop file system for the storage and analysis of 10s of TB Wi-Fi signal packet data."
+        "content": "Designed and maintained a data cluster with HDFS for storaging and analyzing 10s of TB Wi-Fi signal packet data."
       }]
     }, {
       "title": ["JIRANSOFT", "Seoul, South Korea"],
