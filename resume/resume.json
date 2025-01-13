@@ -1,103 +1,182 @@
 {
   "basic": {
     "name": "Di Wu",
-    "email": "im@wudi.me",
+    "email": "dev@wudi.me",
     "website": "https://wudi.me",
-    "profiles": [{
-      "network": "github",
-      "username": "5d",
-      "url": "https://github.com/5d"
-    }]
+    "profiles": [
+      {
+        "network": "github",
+        "username": "5d",
+        "url": "https://github.com/5d"
+      }
+    ]
   },
-  "sections": [{
+  "sections": [
+    {
       "header": "summary",
       "items": [
         {
           "details": [
             {
               "label": "",
-              "content": "10 years hands on experience in software design, implement and CI/CD flow."
+              "content": "10 years of hands-on industry experience"
+            },
+            {
+              "label": "",
+              "content": "Experienced full-stack engineer with expertise in modern front-end frameworks, widely-used back-end technologies, and the design of scalable, highly consistent, large-scale systems"
+            },
+            {
+              "label": "",
+              "content": "Passionate about functional programming, programming language theory, and formal verification"
             }
           ]
         }
       ]
-    }, {
+    },
+    {
       "header": "skills",
       "items": [
         {
           "details": [
             {
               "label": "Programming Languages",
-              "content": "Java, Javascript, Typescript, Scala, Swift, C/C++"
+              "content": "Javascript/Typescript, Java, Swift/Obj-C, C/C++"
             },
             {
               "label": "Tools",
-              "content": "Git, Emacs, Docker, AWS, VSCode"
+              "content": "Git, Docker, AWS, MacOS"
             }
           ]
         }
       ]
-    }, {
-    "header": "experience",
-    "items": [{
-        "title": ["Amazon", "Vancouver, Canada"],
-        "subtitle": [
-          "Software Engineer",
-          "Dec. 2020 -- Present"
-        ],
-        "details": [{
-          "label": "EC2 Load Balancing",
-          "content": "Working on a new network service for cross boundary(accounts and VPCs) accessing experience."
-        },{
-          "label": "Selling Partner Services",
-          "content": "Designed and implemented a deferral accounting engine serve over 8 million daily transactions for finance team. Maintained accounting services for third party sellers."
-        }]
-      }, {
-      "title": ["UJET", "Remote"],
-      "subtitle": ["Front-end Software Engineer", "Mar. 2017 -- Apr. 2020"],
-      "details": [{
-        "label": "VoIP Web App",
-        "content": "Maintained and implemented the VoIP web App. Make it easy to be integrated into CRM platforms like salesforce and zendesk."
-      }, {
-        "label": "Developer Console",
-        "content": "Designed and implemented Admin Console web App for simplifying on-call operations."
-      }]
-    }, {
-      "title": ["Rakunew", "Saitama, Japan"],
-      "subtitle": ["Software Engineer", "Jul. 2016 -- Mar. 2017"],
-      "details": [{
-        "label": "Xiaotaojiang",
-        "content": "Rearchitected and implemented an e-commerce store iOS App with the newest Webkit framework. It’s hybrid with all the UI rendered in WebView and all the async requests handled by native Swift code."
-      }, {
-        "label": "QRCode Scanner",
-        "content": "An App for scanning and reading QRCodes in Japan, automatically crawling and compare the prices on Amazon, Yahoo and other Japanese online stores. The crawlers were written in javascript with App as its orchestrator."
-      }]
-    }, {
-      "title": ["Zoyi", "Seoul, South Korea"],
-      "subtitle": ["Software Engineer", "Jun. 2013 -- Jan. 2016"],
-      "details": [{
-        "label": "Customized Wi-Fi Firmware",
-        "content": "Designed and implemented a Wi-Fi packets sniffing agent that can publishing the devices nearby by regularly detecting Wi-Fi probe requests. It’s based on Broadcom MIPS Linux system. Also, integrated iBeacon functionality to the Wi-Fi device with its onboard BLE chip"
-      }, {
-        "label": "Wi-Fi Setup Smart Wizard",
-        "content": "Designed and implemented an iOS App for Wi-Fi device inital setup with Bluetooth protocol."
-      }, {
-        "label": "Dev/Ops on big data cluster",
-        "content": "Designed and maintained a data cluster with HDFS for storaging and analyzing 10s of TB Wi-Fi signal packet data."
-      }]
-    }, {
-      "title": ["JIRANSOFT", "Seoul, South Korea"],
-      "subtitle": ["Software Engineer", "Apr. 2011 -- Jun. 2013"],
-      "details": [{
-        "label": "DirectReader",
-        "content": "Designed and implemented a cloud drive management App for user to easily share files between desktop and mobile devices."
-      }]
-    }]
-  }, {
-    "header": "education",
-    "items": [{
-      "title": ["Chungnam National University", "Daejeon, South Korea"],
-      "subtitle": ["Bachelor of Engineering in Computer Engineering", "Mar. 2007 -- Mar. 2011"]
-    }]
-  }]
+    },
+    {
+      "header": "experience",
+      "items": [
+        {
+          "title": [
+            "Amazon",
+            "Vancouver, Canada"
+          ],
+          "subtitle": [
+            "Software Engineer",
+            "Dec. 2020 -- Present"
+          ],
+          "details": [
+            {
+              "label": "AWS CDK",
+              "content": "Currently, I am one of the maintainers of the AWS open-source AoC project aws/aws-cdk and its associated packages."
+            },
+            {
+              "label": "AWS Amplify for Apple platforms",
+              "content": "Developed, and maintained the AWS open-source project aws-amplify/amplify-swift and its related packages."
+            },
+            {
+              "label": "EC2 Load Balancing",
+              "content": "Contributed to the control plane of the AWS VPC Lattice service, focusing on the creation of consistent REST APIs."
+            },
+            {
+              "label": "Amazon Selling Partner Services",
+              "content": "Developed and implemented a deferral accounting engine capable of processing over 10+ million daily transactions to support the finance team. Additionally, maintained several other accounting services to support third-party sellers on Amazon."
+            }
+          ]
+        },
+        {
+          "title": [
+            "UJET",
+            "Remote"
+          ],
+          "subtitle": [
+            "Front-end Software Engineer",
+            "Mar. 2017 -- Apr. 2020"
+          ],
+          "details": [
+            {
+              "label": "VoIP Web App",
+              "content": "Maintained and enhanced the VoIP web application, ensuring seamless integration with CRM platforms such as Salesforce and Zendesk."
+            },
+            {
+              "label": "On-call Developer Console",
+              "content": "Designed and developed the Admin Console web application to streamline and simplify on-call operations."
+            }
+          ]
+        },
+        {
+          "title": [
+            "Rakunew",
+            "Saitama, Japan"
+          ],
+          "subtitle": [
+            "Software Engineer",
+            "Jul. 2016 -- Mar. 2017"
+          ],
+          "details": [
+            {
+              "label": "XiaoTaoJiang",
+              "content": "Redesigned and developed an e-commerce store iOS app using the latest WebKit framework. The app is hybrid, with the UI rendered in WebView and all asynchronous requests managed by native Swift code."
+            },
+            {
+              "label": "QRCode Scanner",
+              "content": "An iOS app for scanning and reading QR codes in Japan, automatically crawling and comparing prices across Amazon, Yahoo, and other Japanese online stores. The crawlers were developed in JavaScript, with the app serving as the orchestrator."
+            }
+          ]
+        },
+        {
+          "title": [
+            "Zoyi",
+            "Seoul, South Korea"
+          ],
+          "subtitle": [
+            "Software Engineer",
+            "Jun. 2013 -- Jan. 2016"
+          ],
+          "details": [
+            {
+              "label": "Customized Linux Firmware",
+              "content": "Designed and developed a Wi-Fi packet sniffing agent that detects Wi-Fi probe requests to regularly publish nearby devices. It is built on a Broadcom MIPS Linux system. Additionally, integrated iBeacon functionality into the Wi-Fi device using its onboard BLE chip."
+            },
+            {
+              "label": "Wi-Fi Setup Smart Wizard",
+              "content": "Designed and developed an iOS app for the initial setup of a Wi-Fi device using Bluetooth protocol."
+            },
+            {
+              "label": "Dev/Ops on Hadoop cluster",
+              "content": "Designed and maintained a data cluster using HDFS to store and analyze tens of terabytes of Wi-Fi signal packet data."
+            }
+          ]
+        },
+        {
+          "title": [
+            "JIRANSOFT",
+            "Seoul, South Korea"
+          ],
+          "subtitle": [
+            "Software Engineer",
+            "Apr. 2011 -- Jun. 2013"
+          ],
+          "details": [
+            {
+              "label": "DirectReader",
+              "content": "Designed and developed a cloud drive management app that enables users to easily share files between desktop and mobile devices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "education",
+      "items": [
+        {
+          "title": [
+            "Chungnam National University",
+            "Daejeon, South Korea"
+          ],
+          "subtitle": [
+            "Bachelor of Engineering in Computer Engineering",
+            "Mar. 2007 -- Mar. 2011"
+          ]
+        }
+      ]
+    }
+  ]
 }
