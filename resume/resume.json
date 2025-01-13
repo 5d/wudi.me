@@ -40,11 +40,11 @@
           "details": [
             {
               "label": "Programming Languages",
-              "content": "Javascript/Typescript, Java, Swift/Obj-C, C/C++"
+              "content": "Javascript/Typescript, Java, Swift/Obj-C, Ruby, Python, C/C++"
             },
             {
               "label": "Tools",
-              "content": "Git, Docker, AWS, MacOS"
+              "content": "Git, Docker, CI/CD, AWS, MacOS"
             }
           ]
         }
@@ -65,19 +65,23 @@
           "details": [
             {
               "label": "AWS CDK",
-              "content": "Currently, I am one of the maintainers of the AWS open-source AoC project aws/aws-cdk and its associated packages."
+              "content": "Contributor of the AWS open-source IaC project aws/aws-cdk and its associated packages."
             },
             {
               "label": "AWS Amplify for Apple platforms",
-              "content": "Developed, and maintained the AWS open-source project aws-amplify/amplify-swift and its related packages."
+              "content": [
+                "Developed and maintained the AWS open-source project aws-amplify/amplify-swift and its related packages.",
+                "Designed and implemented the amplify-swift datastore AppSync real-time client with native WebSocket in URLSession, ensuring smooth reconnection and conflict resolution during app background/foreground switching. Also, created an extension package for customers to use ApolloGraphQL directly.",
+                "Redesigned the CI/CD workflows, migrating from CircleCI to GitHub Actions, and enabled retrieval of credentials from AWS Secrets Manager instead of using environment variables, improving security and streamlining credential rotations."
+              ]
             },
             {
               "label": "EC2 Load Balancing",
-              "content": "Contributed to the control plane of the AWS VPC Lattice service, focusing on the creation of consistent REST APIs."
+              "content": "Contributed to the launch of AWS VPC Lattice, Designed and implemented consistent, scalable REST APIs."
             },
             {
               "label": "Amazon Selling Partner Services",
-              "content": "Developed and implemented a deferral accounting engine capable of processing over 10+ million daily transactions to support the finance team. Additionally, maintained several other accounting services to support third-party sellers on Amazon."
+              "content": "Designed and implemented a deferral accounting engine capable of processing over 10+ million daily transactions to support the finance team. Additionally, maintained key accounting services supporting Amazon third-party sellers."
             }
           ]
         },

@@ -19,7 +19,11 @@ class WdrSectionItem extends LitElement {
       ${(this.data.details || []).map(({label, content}) => html`
         <li>
           ${label ? html`<strong>${label}: </strong>` : html``}
-          <span>${content}</span>
+          ${Array.isArray(content)
+            ? html`<ul>${content.map(c => html`<li>${c}</li>`)}</ul>`
+            : html`<span>${content}</span>`
+          }
+
         </li>
       `)}
       </ul>
