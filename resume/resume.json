@@ -2,7 +2,7 @@
   "basic": {
     "name": "Di Wu",
     "email": "dev@wudi.me",
-    "website": "https://wudi.me",
+    "website": "https://wudi.me/resume",
     "profiles": [
       {
         "network": "github",
@@ -19,7 +19,7 @@
           "details": [
             {
               "label": "",
-              "content": "10 years of hands-on industry experience"
+              "content": "10+ years of hands-on industry experience"
             },
             {
               "label": "",
@@ -40,7 +40,7 @@
           "details": [
             {
               "label": "Programming Languages",
-              "content": "Javascript/Typescript, Java, Swift/Obj-C, Ruby, Python, C/C++"
+              "content": "Javascript/Typescript, Java, Swift/Obj-C, Ruby, Python, C/C++, Haskell"
             },
             {
               "label": "Tools",
@@ -77,7 +77,7 @@
             },
             {
               "label": "EC2 Load Balancing",
-              "content": "Contributed to the launch of AWS VPC Lattice, Designed and implemented consistent, scalable REST APIs."
+              "content": "Developed and deployed scalable REST APIs to support the launch of the AWS VPC Lattice service, ensuring consistency and reliability."
             },
             {
               "label": "Amazon Selling Partner Services",
@@ -91,7 +91,7 @@
             "Remote"
           ],
           "subtitle": [
-            "Front-end Software Engineer",
+            "Software Engineer",
             "Mar. 2017 -- Apr. 2020"
           ],
           "details": [
