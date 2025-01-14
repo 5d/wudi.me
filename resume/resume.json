@@ -44,7 +44,7 @@
             },
             {
               "label": "Tools",
-              "content": "Git, Docker, CI/CD, AWS, MacOS"
+              "content": "Git, Docker, CI/CD, AWS"
             }
           ]
         }
@@ -71,7 +71,7 @@
               "label": "AWS Amplify for Apple platforms",
               "content": [
                 "Developed and maintained the AWS open-source project aws-amplify/amplify-swift and its related packages.",
-                "Designed and implemented the amplify-swift datastore AppSync real-time client with native WebSocket in URLSession, ensuring smooth reconnection and conflict resolution during app background/foreground switching. Also, created an extension package for customers to use ApolloGraphQL directly.",
+                "Developed and implemented the Amplify Swift DataStore AppSync real-time client using a native WebSocket in URLSession, leveraging Combine to manage streaming data. Additionally, created an extension package enabling customers to use ApolloGraphQL directly.",
                 "Redesigned the CI/CD workflows, migrating from CircleCI to GitHub Actions, and enabled retrieval of credentials from AWS Secrets Manager instead of using environment variables, improving security and streamlining credential rotations."
               ]
             },

@@ -23,12 +23,25 @@ class WdrBasic extends LitElement {
       html ``
   }
 
+  get getProfiles() {
+    return (this.data.profiles ?? []).map(this.buildProfile)
+  }
+
+  buildProfile(profile) {
+    switch (profile.network) {
+      case 'github':
+        return html`<a href="${profile.url}">${profile.url}</a>`
+      default: return html``
+    }
+  }
+
   render() {
     return html`
       <div>
         <p><strong>${this.data.name}</strong></p>
         ${this.getEmail}
         ${this.getWebsite}
+        ${this.getProfiles}
       </div>
     `
   }
