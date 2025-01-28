@@ -44,7 +44,7 @@
             },
             {
               "label": "Tools",
-              "content": "Git, Docker, CI/CD, AWS"
+              "content": "Git, Docker, CI/CD, AWS, Nix"
             }
           ]
         }
@@ -76,8 +76,8 @@
               ]
             },
             {
-              "label": "EC2 Load Balancing",
-              "content": "Developed and deployed scalable REST APIs to support the launch of the AWS VPC Lattice service, ensuring consistency and reliability."
+              "label": "EC2 Load Balancing - VPC Lattice",
+              "content": "Designed scalable database tables optimized for complex queries against listeners, rules, and target groups, ensuring high consistency with DynamoDB. Additionally, implemented the corresponding REST APIs and DAO layer."
             },
             {
               "label": "Amazon Selling Partner Services",
