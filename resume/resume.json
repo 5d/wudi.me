@@ -98,10 +98,6 @@
             {
               "label": "VoIP Web App",
               "content": "Maintained and enhanced the VoIP web application, ensuring seamless integration with CRM platforms such as Salesforce and Zendesk."
-            },
-            {
-              "label": "On-call Developer Console",
-              "content": "Designed and developed the Admin Console web application to streamline and simplify on-call operations."
             }
           ]
         },
@@ -142,10 +138,6 @@
             {
               "label": "Wi-Fi Setup Smart Wizard",
               "content": "Designed and developed an iOS app for the initial setup of a Wi-Fi device using Bluetooth protocol."
-            },
-            {
-              "label": "Dev/Ops on Hadoop cluster",
-              "content": "Designed and maintained a data cluster using HDFS to store and analyze tens of terabytes of Wi-Fi signal packet data."
             }
           ]
         },
