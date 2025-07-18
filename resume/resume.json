@@ -40,7 +40,7 @@
           "details": [
             {
               "label": "Programming Languages",
-              "content": "Javascript/Typescript, Java, Swift/Obj-C, Ruby, Python, C/C++, Haskell"
+              "content": "Javascript/Typescript, Java, Swift/Obj-C, Ruby, Python, Rust, C/C++, Haskell"
             },
             {
               "label": "Tools",
