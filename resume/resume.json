@@ -19,15 +19,15 @@
           "details": [
             {
               "label": "",
-              "content": "10+ years of hands-on industry experience"
+              "content": "Senior Software Engineer with 10+ years of experience in developer tooling, infrastructure platforms, and scalable distributed systems."
             },
             {
               "label": "",
-              "content": "Experienced full-stack engineer with expertise in modern front-end frameworks, widely-used back-end technologies, and the design of scalable, highly consistent, large-scale systems"
+              "content": "Key contributor to multiple flagship AWS projects including CDK, Amplify Swift, and VPC Lattice. Deeply skilled in modern languages like TypeScript, Swift, Java, and Rust, with a strong passion for functional programming, reproducible builds, and dev productivity."
             },
             {
               "label": "",
-              "content": "Passionate about functional programming, programming language theory, and formal verification"
+              "content": "Track record of diagnosing performance bottlenecks and delivering measurable improvements in developer experience and system reliability."
             }
           ]
         }
@@ -65,23 +65,36 @@
           "details": [
             {
               "label": "AWS CDK",
-              "content": "Contributor of the AWS open-source IaC project aws/aws-cdk and its associated packages."
+              "content": [
+                "Maintainer and contributor to the aws/aws-cdk open-source project, enabling infrastructure as code in TypeScript, Python, Java, and Go.",
+	              "Designed and demonstrated a Nix-based bundling PoC for AWS Lambda, addressing customer needs for customizable, reproducible build environments.",
+	              "Though not merged upstream, insights from this PoC were later applied to optimize CDK documentation build processes—reducing build time from 2+ hours to under 30 minutes using deterministic and cacheable steps via Nix.",
+	              "Supported multiple AWS services in CDK libraries and improved developer ergonomics through better abstractions and dependency isolation."
+              ]
             },
             {
               "label": "AWS Amplify for Apple platforms",
               "content": [
-                "Developed and maintained the AWS open-source project aws-amplify/amplify-swift and its related packages.",
-                "Developed and implemented the Amplify Swift DataStore AppSync real-time client using a native WebSocket in URLSession, leveraging Combine to manage streaming data. Additionally, created an extension package enabling customers to use ApolloGraphQL directly.",
-                "Redesigned the CI/CD workflows, migrating from CircleCI to GitHub Actions, and enabled retrieval of credentials from AWS Secrets Manager instead of using environment variables, improving security and streamlining credential rotations."
+                "Maintainer of aws-amplify/amplify-swift, the official iOS SDK for AppSync, Auth, and Storage.",
+	              "Implemented a real-time AppSync client using URLSession and Combine, providing first-class native GraphQL subscription support.",
+	              "Designed and shipped an ApolloGraphQL-compatible extension for customers needing more control over schema and caching.",
+	              "Migrated CI/CD pipelines from CircleCI to GitHub Actions and integrated AWS Secrets Manager, improving deployment reliability and security."
               ]
             },
             {
               "label": "EC2 Load Balancing - VPC Lattice",
-              "content": "Designed scalable database tables optimized for complex queries against listeners, rules, and target groups, ensuring high consistency with DynamoDB. Additionally, implemented the corresponding REST APIs and DAO layer."
+              "content": [
+                "Contributed to AWS VPC Lattice, a scalable network service mesh platform.",
+	              "Designed high-consistency DynamoDB schemas for listeners, rules, and target groups; implemented REST APIs and DAO layers for the service control plane."
+              ]
             },
             {
               "label": "Amazon Selling Partner Services",
-              "content": "Designed and implemented a deferral accounting engine capable of processing over 10+ million daily transactions to support the finance team. Additionally, maintained key accounting services supporting Amazon third-party sellers."
+              "content": [
+                "Built a deferred accounting engine to process over 10 million daily financial transactions for Amazon’s third-party seller ecosystem.",
+	              "Introduced a functional-style Result monad to model partial failures and error recovery paths cleanly, improving testability and long-term maintainability.",
+	              "This pattern enabled more robust error handling and simplified integration of new features into an otherwise complex financial system."
+              ]
             }
           ]
         },
