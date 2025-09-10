@@ -86,7 +86,7 @@
               "label": "Amazon Selling Partner Services",
               "content": [
                 "Built deferred accounting engine processing subscription transactions for seller ecosystem.",
-	              "Implemented Error monad pattern in Java (inspired by Scala Try and Rust Result) for robust error handling."
+	              "Implemented Either monad pattern in Java (inspired by Scala Try and Rust Result) for robust error handling."
               ]
             }
           ]
