@@ -19,15 +19,11 @@
           "details": [
             {
               "label": "",
-              "content": "Senior Software Engineer with 10+ years of experience in developer tooling, infrastructure platforms, and scalable distributed systems."
+              "content": "Senior Software Engineer with 10+ years building developer tools, cloud infrastructure, and distributed systems. Interested in performance optimization and high-scale financial system architecture."
             },
             {
               "label": "",
-              "content": "Key contributor to multiple flagship AWS projects including CDK, Amplify Swift, and VPC Lattice. Deeply skilled in modern languages like TypeScript, Swift, Java, and Rust, with a strong passion for functional programming, reproducible builds, and dev productivity."
-            },
-            {
-              "label": "",
-              "content": "Track record of diagnosing performance bottlenecks and delivering measurable improvements in developer experience and system reliability."
+              "content": "Full-stack engineer across mobile, backend, and infrastructure domains with expertise in TypeScript, Swift, Java, and Rust."
             }
           ]
         }
@@ -66,34 +62,31 @@
             {
               "label": "AWS CDK",
               "content": [
-                "Maintainer and contributor to the aws/aws-cdk open-source project, enabling infrastructure as code in TypeScript, Python, Java, and Go.",
-	              "Designed and demonstrated a Nix-based bundling PoC for AWS Lambda, addressing customer needs for customizable, reproducible build environments.",
-	              "Though not merged upstream, insights from this PoC were later applied to optimize CDK documentation build processes—reducing build time from 2+ hours to under 30 minutes using deterministic and cacheable steps via Nix.",
-	              "Supported multiple AWS services in CDK libraries and improved developer ergonomics through better abstractions and dependency isolation."
+                "Contributor and maintainer of aws/aws-cdk open-source project enabling infrastructure as code.",
+	              "Optimized CDK documentation builds from 2+ hours to 30 minutes using Nix, serving all main and release builds.",
+	              "Supported multiple AWS services and improved library abstractions."
               ]
             },
             {
               "label": "AWS Amplify for Apple platforms",
               "content": [
-                "Maintainer of aws-amplify/amplify-swift, the official iOS SDK for AppSync, Auth, and Storage.",
-	              "Implemented a real-time AppSync client using URLSession and Combine, providing first-class native GraphQL subscription support.",
-	              "Designed and shipped an ApolloGraphQL-compatible extension for customers needing more control over schema and caching.",
-	              "Migrated CI/CD pipelines from CircleCI to GitHub Actions and integrated AWS Secrets Manager, improving deployment reliability and security."
+                "Contributor and maintainer of aws-amplify/amplify-swift iOS SDK for AppSync and Storage.",
+	              "Built real-time GraphQL subscription client using URLSession and Combine.",
+	              "Shipped ApolloGraphQL-compatible extension and migrated CI/CD to GitHub Actions."
               ]
             },
             {
               "label": "EC2 Load Balancing - VPC Lattice",
               "content": [
-                "Contributed to AWS VPC Lattice, a scalable network service mesh platform.",
-	              "Designed high-consistency DynamoDB schemas for listeners, rules, and target groups; implemented REST APIs and DAO layers for the service control plane."
+                "Contributed to AWS VPC Lattice service mesh platform.",
+	              "Designed DynamoDB schemas and REST APIs for service control plane."
               ]
             },
             {
               "label": "Amazon Selling Partner Services",
               "content": [
-                "Built a deferred accounting engine to process over 10 million daily financial transactions for Amazon’s third-party seller ecosystem.",
-	              "Introduced a functional-style Result monad to model partial failures and error recovery paths cleanly, improving testability and long-term maintainability.",
-	              "This pattern enabled more robust error handling and simplified integration of new features into an otherwise complex financial system."
+                "Built deferred accounting engine processing subscription transactions for seller ecosystem.",
+	              "Implemented Error monad pattern in Java (inspired by Scala Try and Rust Result) for robust error handling."
               ]
             }
           ]
@@ -110,7 +103,10 @@
           "details": [
             {
               "label": "VoIP Web App",
-              "content": "Maintained and enhanced the VoIP web application, ensuring seamless integration with CRM platforms such as Salesforce and Zendesk."
+              "content": [
+                "Maintained and enhanced VoIP web application with seamless CRM integrations for Salesforce and Zendesk.",
+                "Redesigned event pipeline architecture improving state management and cross-tab synchronization using Redux and browser APIs."
+              ]
             }
           ]
         },
@@ -126,11 +122,11 @@
           "details": [
             {
               "label": "XiaoTaoJiang",
-              "content": "Redesigned and developed an e-commerce store iOS app using the latest WebKit framework. The app is hybrid, with the UI rendered in WebView and all asynchronous requests managed by native Swift code."
+              "content": "Redesigned e-commerce iOS app using hybrid WebKit framework with native Swift for async operations."
             },
             {
               "label": "QRCode Scanner",
-              "content": "An iOS app for scanning and reading QR codes in Japan, automatically crawling and comparing prices across Amazon, Yahoo, and other Japanese online stores. The crawlers were developed in JavaScript, with the app serving as the orchestrator."
+              "content": "Built QR code scanner iOS app with automated price comparison across Amazon, Yahoo, and other Japanese platforms."
             }
           ]
         },
@@ -146,11 +142,11 @@
           "details": [
             {
               "label": "Customized Linux Firmware",
-              "content": "Designed and developed a Wi-Fi packet sniffing agent that detects Wi-Fi probe requests to regularly publish nearby devices. It is built on a Broadcom MIPS Linux system. Additionally, integrated iBeacon functionality into the Wi-Fi device using its onboard BLE chip."
+              "content": "Built Wi-Fi packet sniffing agent detecting probe requests for nearby device analytics on Broadcom MIPS Linux system with integrated iBeacon functionality."
             },
             {
               "label": "Wi-Fi Setup Smart Wizard",
-              "content": "Designed and developed an iOS app for the initial setup of a Wi-Fi device using Bluetooth protocol."
+              "content": "Developed iOS setup wizard app for configuring Wi-Fi devices using BLE protocol."
             }
           ]
         },
@@ -166,7 +162,7 @@
           "details": [
             {
               "label": "DirectReader",
-              "content": "Designed and developed a cloud drive management app that enables users to easily share files between desktop and mobile devices."
+              "content": "Built cloud drive management application enabling seamless file synchronization and sharing between desktop and mobile platforms."
             }
           ]
         }
