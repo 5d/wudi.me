@@ -19,7 +19,7 @@
           "details": [
             {
               "label": "",
-              "content": "Senior Software Engineer with 10+ years building developer tools, cloud infrastructure, and distributed systems. Interested in performance optimization and high-scale financial system architecture."
+              "content": "Senior Software Engineer with 10+ years building developer tools, cloud infrastructure, and distributed systems. Experienced in high-scale infrastructure automation and system design."
             },
             {
               "label": "",
@@ -36,11 +36,11 @@
           "details": [
             {
               "label": "Programming Languages",
-              "content": "Javascript/Typescript, Java, Swift/Obj-C, Ruby, Python, Rust, C/C++, Haskell"
+              "content": "TypeScript/JavaScript, Java, Swift/Obj-C, Rust, Python, Ruby, C/C++, Haskell"
             },
             {
-              "label": "Tools",
-              "content": "Git, Docker, CI/CD, AWS, Nix"
+              "label": "Cloud & Infrastructure",
+              "content": "AWS, Docker, Nix, CI/CD"
             }
           ]
         }
@@ -62,7 +62,7 @@
             {
               "label": "AWS DevOps Agent",
               "content": [
-                "Designed and implemented distributed resource crawler discovering AWS resources across customer accounts to build service topology for DevOps Agent auto-diagnose."
+                "Engineered distributed resource crawler building AWS service topology across customer accounts for DevOps Agent auto-diagnose capabilities."
               ]
             },
             {
@@ -128,11 +128,15 @@
           "details": [
             {
               "label": "XiaoTaoJiang",
-              "content": "Redesigned e-commerce iOS app using hybrid WebKit framework with native Swift for async operations."
+              "content": [
+                "Redesigned e-commerce iOS app using hybrid WebKit framework with native Swift for async operations."
+              ]
             },
             {
               "label": "QRCode Scanner",
-              "content": "Built QR code scanner iOS app with automated price comparison across Amazon, Yahoo, and other Japanese platforms."
+              "content": [
+                "Built QR code scanner iOS app with automated price comparison across Amazon, Yahoo, and other Japanese platforms."
+              ]
             }
           ]
         },
@@ -148,11 +152,15 @@
           "details": [
             {
               "label": "Customized Linux Firmware",
-              "content": "Built Wi-Fi packet sniffing agent detecting probe requests for nearby device analytics on Broadcom MIPS Linux system with integrated iBeacon functionality."
+              "content": [
+                "Built Wi-Fi packet sniffing agent detecting probe requests for nearby device analytics on Broadcom MIPS Linux system with integrated iBeacon functionality."
+              ]
             },
             {
               "label": "Wi-Fi Setup Smart Wizard",
-              "content": "Developed iOS setup wizard app for configuring Wi-Fi devices using BLE protocol."
+              "content": [
+                "Developed iOS setup wizard app for configuring Wi-Fi devices using BLE protocol."
+              ]
             }
           ]
         },
@@ -168,7 +176,9 @@
           "details": [
             {
               "label": "DirectReader",
-              "content": "Built cloud drive management application enabling seamless file synchronization and sharing between desktop and mobile platforms."
+              "content": [
+                "Built cloud drive management application enabling seamless file synchronization and sharing between desktop and mobile platforms."
+              ]
             }
           ]
         }
