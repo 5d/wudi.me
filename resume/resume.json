@@ -60,6 +60,12 @@
           ],
           "details": [
             {
+              "label": "AWS DevOps Agent",
+              "content": [
+                "Designed and implemented distributed resource crawler discovering AWS resources across customer accounts to build service topology for DevOps Agent auto-diagnose."
+              ]
+            },
+            {
               "label": "AWS CDK",
               "content": [
                 "Contributor and maintainer of aws/aws-cdk open-source project enabling infrastructure as code.",
