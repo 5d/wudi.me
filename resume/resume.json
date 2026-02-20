@@ -62,7 +62,7 @@
             {
               "label": "AWS DevOps Agent",
               "content": [
-                "Engineered distributed resource crawler building AWS service topology across customer accounts for DevOps Agent auto-diagnose capabilities."
+                "Building distributed resource crawler to construct AWS service topology across customer accounts for DevOps Agent auto-diagnose capabilities."
               ]
             },
             {
